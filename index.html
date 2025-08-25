@@ -25,6 +25,9 @@
   <!-- Font icons -->
   <link rel="stylesheet" href="icon-fonts/flat-icon/flaticon.css" />
   <link rel="stylesheet" href="icon-fonts/font-awesome/css/all.min.css" />
+	
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>	
 
 
   <!--[if lt IE 9]>
@@ -508,354 +511,68 @@
               </section>
 
               <!-- PORTFOLIO -->
-              <section class="portfolio" id="portfolio"> 
-                <div class="spacer-75"></div>
-                <!-- Page Caption -->
-                <div class="section-title page-caption">
-                  <h5>Portfolio</h5>
-                      <div class="zigzag">
-                        <hr class="left">
-                        <hr class="right">
-                        <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-                        <path d="M1.357,12.26 10.807,2.81 20.328,12.332
-                        29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"></path>
-                        </svg>
-                      </div>
-                </div>
-                <div  class="spacer-45"></div>
+<section class="portfolio" id="portfolio"> 
+  <div class="spacer-75"></div>
+  
+  <!-- Page Caption -->
+  <div class="section-title page-caption">
+    <h5>Portfolio</h5>
+    <div class="zigzag">
+      <hr class="left">
+      <hr class="right">
+      <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <path d="M1.357,12.26 10.807,2.81 20.328,12.332
+        29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793"></path>
+      </svg>
+    </div>
+  </div>
+  <div class="spacer-45"></div>
 
-                <div class="section-head">
-                  <!-- Filter -->
-                  <div class="portfolio_filter">
-                    <ul> 
-                        <li><a class="select-cat" data-filter="*" href="#">All Works</a></li>
-                        <li><a data-filter=".photography" href="#">Photography</a></li>
-                        <li><a data-filter=".graphics" href="#">Graphics</a></li>
-                        <li><a data-filter=".video" href="#">Video</a></li>
-                    </ul>   
-                  </div>
-                  <div class="spacer-60"></div>
-                </div>
-                <div class="row masonry">
-      
-                  <!-- portfolio item -->
-                  <a href="portfolio-photo/photo-01.jpg" class="col-xl-4 col-lg-6 col-md-6 grid-item photography">
-                    <div class="work-holder scale-animation" data-duration="2" data-delay="2">
-                    <figure class="portfolio-item">
-                      <img src="portfolio-photo/photo-01.jpg" alt="">
-                      <figcaption>
-                        <div class="outer">
-                          <div class="inner">
-                            <span>Photography </span>
-                            <h3 class="title">Studio Shoot</h3>
-                          </div>
-                        </div>
-                    </figcaption>  
-                    </figure>
-                    </div>
-                  </a>
-                  <!-- portfolio item -->
-                  <a href="portfolio-graphic/graph-01.jpg" class="col-xl-4 col-lg-6 col-md-6 grid-item graphics">
-                    <div class="work-holder scale-animation"  data-delay=".4" data-duration="2">
-                    <figure class="portfolio-item">
-                      <img src="portfolio-graphic/graph-01.jpg" alt="">
-                      <figcaption>
-                        <div class="outer">
-                          <div class="inner">
-                            <span>Graphic Design</span>
-                            <h3 class="title">Corporate Brochure </h3>
-                          </div>
-                        </div>
-                    </figcaption>  
-                    </figure>
-                    </div>
-                  </a>
-                <!--  VIDEO portfolio item -->
-                <a href="https://www.youtube.com/watch?v=_NW6buwv2Ks" class="col-xl-4 col-lg-6 col-md-6 grid-item video popup-youtube">
-                  <div class="work-holder scale-animation"  data-delay=".5" data-duration="2">
-                    <div class="video-caption">
-                      <div class="outer">
-                        <div class="inner">
-                          <span>Video </span>
-                          <h3 class="title">Torque Consultancy</h3>
-                        </div>
-                      </div>
-                    </div>
-                  <div class="video-wrapper four-three">
-                    <!--<video playsinline loop="" muted="" >
-                      <source src="https://www.youtube.com/watch?v=_NW6buwv2Ks" type="video/mp4">
-                    </video>-->
-                  </div>
-                  </div>
-                </a>
-                 <!--  VIDEO portfolio item -->
-                <a href="work-8.html" class="col-xl-4 col-lg-6 col-md-6 grid-item video">
-                  <div class="work-holder scale-animation"  data-delay=".5" data-duration="2">
-                    <div class="video-caption">
-                      <div class="outer">
-                        <div class="inner">
-                          <span>Video </span>
-                          <h3 class="title">The Last Pizza</h3>
-                        </div>
-                      </div>
-                    </div>
-                  <div class="video-wrapper four-three">
-                    <video playsinline loop="" muted="" >
-                      <source src="portfolio-vid/vid-01.jpg" type="video/mp4">
-                    </video>
-                  </div>
-                  </div>
-                </a>
-                    <!-- portfolio item -->
-                  <a href="portfolio-photo/photo-02.jpg" class="col-xl-4 col-lg-6 col-md-6 grid-item photography">
-                    <div class="work-holder scale-animation" data-delay=".7" data-duration="2">
-                      <figure class="portfolio-item">
-                        <img src="portfolio-photo/photo-02.jpg" alt="">
-                        <figcaption>
-                          <div class="outer">
-                            <div class="inner">
-                              <span>Photography </span>
-                              <h3 class="title">Creative Works 01</h3>
-                            </div>
-                          </div>
-                      </figcaption>  
-                      </figure>
-                      </div>
-                    </a>
-                    <!-- portfolio item -->
-                  <a href="portfolio-graphic/graph-04.jpg" class="col-xl-4 col-lg-6 col-md-6 grid-item graphics">
-                    <div class="work-holder scale-animation" data-delay=".6" data-duration="2">
-                      <figure class="portfolio-item">
-                        <img src="portfolio-graphic/graph-04.jpg" alt="">
-                        <figcaption>
-                          <div class="outer">
-                            <div class="inner">
-                              <span>Graphic Design</span>
-                              <h3 class="title">A4 Sales Folder + Inserts</h3>
-                            </div>
-                          </div>
-                      </figcaption>  
-                      </figure>
-                      </div>
-                    </a>
-      
-                <!--  PHOTO portfolio item -->
-                <!-- portfolio item -->
-                  <a href="portfolio-photo/photo-04.jpg" class="col-xl-4 col-lg-6 col-md-6 grid-item photography">
-                    <div class="work-holder scale-animation"  data-delay=".4" data-duration="2">
-                    <figure class="portfolio-item">
-                      <img src="portfolio-photo/photo-04.jpg" alt="">
-                      <figcaption>
-                        <div class="outer">
-                          <div class="inner">
-                            <span>Photography </span>
-                            <h3 class="title">Architecture 01 </h3>
-                          </div>
-                        </div>
-                    </figcaption>  
-                    </figure>
-                    </div>
-                  </a>
-                    
-                    <!-- portfolio item -->
-                    <a href="portfolio-graphic/graph-03.jpg" class="col-xl-4 col-lg-6 col-md-6 grid-item graphics">
-                      <div class="work-holder scale-animation" data-delay=".9" data-duration="2">
-                        <figure class="portfolio-item">
-                          <img src="portfolio-graphic/graph-03.jpg" alt="">
-                          <figcaption>
-                            <div class="outer">
-                              <div class="inner">
-                                <span>Graphic Design </span>
-                                <h3 class="title">Branding &amp; Identity</h3>
-                              </div>
-                            </div>
-                        </figcaption>  
-                        </figure>
-                        </div>
-                      </a>
-                
-				  <!--  VIDEO portfolio item -->
-                <a href="https://www.youtube.com/watch?v=_NW6buwv2Ks" class="col-xl-4 col-lg-6 col-md-6 grid-item video popup-youtube">
-                  <div class="work-holder scale-animation"  data-delay=".5" data-duration="2">
-                    <div class="video-caption">
-                      <div class="outer">
-                        <div class="inner">
-                          <span>Video </span>
-                          <h3 class="title">Not Torque</h3>
-                        </div>
-                      </div>
-                    </div>
-                  <div class="video-wrapper four-three">
-                    <!--<video playsinline loop="" muted="" >
-                      <source src="https://www.youtube.com/watch?v=_NW6buwv2Ks" type="video/mp4">
-                    </video>-->
-                  </div>
-                  </div>
-                </a>
-					
-					<!-- portfolio item -->
-                    <a href="portfolio-graphic/graph-05.jpg" class="col-xl-4 col-lg-6 col-md-6 grid-item graphics">
-                      <div class="work-holder scale-animation" data-delay=".9" data-duration="2">
-                        <figure class="portfolio-item">
-                          <img src="portfolio-graphic/graph-05.jpg" alt="">
-                          <figcaption>
-                            <div class="outer">
-                              <div class="inner">
-                                <span>Graphic Design </span>
-                                <h3 class="title">Figma UI Design</h3>
-                              </div>
-                            </div>
-                        </figcaption>  
-                        </figure>
-                        </div>
-                      </a>
-					
-					<!-- portfolio item -->
-                    <a href="portfolio-photo/photo-05.jpg" class="col-xl-4 col-lg-6 col-md-6 grid-item photography">
-                      <div class="work-holder scale-animation" data-delay=".9" data-duration="2">
-                        <figure class="portfolio-item">
-                          <img src="portfolio-photo/photo-05.jpg" alt="">
-                          <figcaption>
-                            <div class="outer">
-                              <div class="inner">
-                                <span>Photography </span>
-                                <h3 class="title">London Zoo Event</h3>
-                              </div>
-                            </div>
-                        </figcaption>  
-                        </figure>
-                        </div>
-                      </a>
-					
-					<!--  VIDEO portfolio item -->
-                <a href="https://www.youtube.com/watch?v=_NW6buwv2Ks" class="col-xl-4 col-lg-6 col-md-6 grid-item video popup-youtube">
-                  <div class="work-holder scale-animation"  data-delay=".5" data-duration="2">
-                    <div class="video-caption">
-                      <div class="outer">
-                        <div class="inner">
-                          <span>Video </span>
-                          <h3 class="title">Info Here</h3>
-                        </div>
-                      </div>
-                    </div>
-                  <div class="video-wrapper four-three">
-                    <!--<video playsinline loop="" muted="" >
-                      <source src="https://www.youtube.com/watch?v=_NW6buwv2Ks" type="video/mp4">
-                    </video>-->
-                  </div>
-                  </div>
-                </a>
-					
-					<!-- portfolio item -->
-                    <a href="portfolio-photo/photo-06.jpg" class="col-xl-4 col-lg-6 col-md-6 grid-item photography">
-                      <div class="work-holder scale-animation" data-delay=".9" data-duration="2">
-                        <figure class="portfolio-item">
-                          <img src="portfolio-photo/photo-06.jpg" alt="">
-                          <figcaption>
-                            <div class="outer">
-                              <div class="inner">
-                                <span>Photography </span>
-                                <h3 class="title">Creative Works 03</h3>
-                              </div>
-                            </div>
-                        </figcaption>  
-                        </figure>
-                        </div>
-                      </a>
-					
-					<!-- portfolio item -->
-                    <a href="portfolio-photo/photo-03.jpg" class="col-xl-4 col-lg-6 col-md-6 grid-item photography">
-                      <div class="work-holder scale-animation" data-delay=".9" data-duration="2">
-                        <figure class="portfolio-item">
-                          <img src="portfolio-photo/photo-03.jpg" alt="">
-                          <figcaption>
-                            <div class="outer">
-                              <div class="inner">
-                                <span>Photography </span>
-                                <h3 class="title">Creative Works 02</h3>
-                              </div>
-                            </div>
-                        </figcaption>  
-                        </figure>
-                        </div>
-                      </a>
-					
-					<!--  VIDEO portfolio item -->
-                <a href="https://www.youtube.com/watch?v=_NW6buwv2Ks" class="col-xl-4 col-lg-6 col-md-6 grid-item video popup-youtube">
-                  <div class="work-holder scale-animation"  data-delay=".5" data-duration="2">
-                    <div class="video-caption">
-                      <div class="outer">
-                        <div class="inner">
-                          <span>Video </span>
-                          <h3 class="title">Info Here 02</h3>
-                        </div>
-                      </div>
-                    </div>
-                  <div class="video-wrapper four-three">
-                    <!--<video playsinline loop="" muted="" >
-                      <source src="https://www.youtube.com/watch?v=_NW6buwv2Ks" type="video/mp4">
-                    </video>-->
-                  </div>
-                  </div>
-                </a>
-					
-					<!--  VIDEO portfolio item -->
-                <a href="https://www.youtube.com/watch?v=_NW6buwv2Ks" class="col-xl-4 col-lg-6 col-md-6 grid-item video popup-youtube">
-                  <div class="work-holder scale-animation"  data-delay=".5" data-duration="2">
-                    <div class="video-caption">
-                      <div class="outer">
-                        <div class="inner">
-                          <span>Video </span>
-                          <h3 class="title">Info Here 03</h3>
-                        </div>
-                      </div>
-                    </div>
-                  <div class="video-wrapper four-three">
-                    <!--<video playsinline loop="" muted="" >
-                      <source src="https://www.youtube.com/watch?v=_NW6buwv2Ks" type="video/mp4">
-                    </video>-->
-                  </div>
-                  </div>
-                </a>
-					
-					<!--  VIDEO portfolio item -->
-                <a href="https://www.youtube.com/watch?v=_NW6buwv2Ks" class="col-xl-4 col-lg-6 col-md-6 grid-item video popup-youtube">
-                  <div class="work-holder scale-animation"  data-delay=".5" data-duration="2">
-                    <div class="video-caption">
-                      <div class="outer">
-                        <div class="inner">
-                          <span>Video </span>
-                          <h3 class="title">Info Here 04</h3>
-                        </div>
-                      </div>
-                    </div>
-                  <div class="video-wrapper four-three">
-                    <!--<video playsinline loop="" muted="" >
-                      <source src="https://www.youtube.com/watch?v=_NW6buwv2Ks" type="video/mp4">
-                    </video>-->
-                  </div>
-                  </div>
-                </a>
-					
-				<!-- portfolio item -->
-                    <a href="portfolio-graphic/graph-06.jpg" class="col-xl-4 col-lg-6 col-md-6 grid-item graphics">
-                      <div class="work-holder scale-animation" data-delay=".9" data-duration="2">
-                        <figure class="portfolio-item">
-                          <img src="portfolio-graphic/graph-06.jpg" alt="">
-                          <figcaption>
-                            <div class="outer">
-                              <div class="inner">
-                                <span>Graphic Design </span>
-                                <h3 class="title">Creative Works 04</h3>
-                              </div>
-                            </div>
-                        </figcaption>  
-                        </figure>
-                        </div>
-                      </a>
-				  
-				 </div>
-              </section>
+  <div class="section-head">
+    <!-- Filter -->
+    <div class="portfolio_filter">
+      <ul> 
+        <li><a class="select-cat" data-filter="*" href="#">All Works</a></li>
+        <li><a data-filter=".photography" href="#">Photography</a></li>
+        <li><a data-filter=".graphics" href="#">Graphics</a></li>
+        <li><a data-filter=".video" href="#">Video</a></li>
+      </ul>   
+    </div>
+    <div class="spacer-60"></div>
+  </div>
+
+  <div class="row masonry">
+
+    <!-- IMAGE PROJECT -->
+    <div class="work-box photography">
+      <a href="portfolio-photo/photo-01.jpg" data-fancybox="gallery" data-caption="Project 1 – Photography Shoot">
+        <img src="portfolio-photo/photothumb-01.jpg" alt="Project 1" class="work-img">
+      </a>
+    </div>
+
+    <!-- IMAGE PROJECT 2 -->
+    <div class="work-box graphics">
+      <a href="portfolio-photo/photo-02.jpg" data-fancybox="gallery" data-caption="Project 2 – Graphic Design">
+        <img src="portfolio-photo/photothumb-02.jpg" alt="Project 2" class="work-img">
+      </a>
+    </div>
+
+    <!-- VIDEO PROJECT 1 -->
+    <div class="work-box video">
+      <a href="https://www.youtube.com/watch?v=abc123" data-fancybox="gallery" data-caption="Project 3 – Promo Video">
+        <img src="images/project2_thumb.jpg" alt="Project 3 Video" class="work-img">
+      </a>
+    </div>
+
+    <!-- VIDEO PROJECT 2 -->
+    <div class="work-box video">
+      <a href="https://vimeo.com/12345678" data-fancybox="gallery" data-caption="Project 4 – Motion Graphics">
+        <img src="images/project4_thumb.jpg" alt="Project 4 Video" class="work-img">
+      </a>
+    </div>
+
+  </div><!-- END MASONRY-->
+</section><!-- PORTFOLIO SECTION-->
       
         <!-- BLOG SECTION -->
          
@@ -1153,6 +870,15 @@
 			fixedContentPos: false
 		});
 		});
+	</script>
+	
+	<script>
+	  Fancybox.bind("[data-fancybox]", {
+		Thumbs: false,
+		Toolbar: {
+		  display: ["close"], // keep it clean
+		},
+	  });
 	</script>
 
 </body>
