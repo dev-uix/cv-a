@@ -26,7 +26,7 @@
   <link rel="stylesheet" href="icon-fonts/flat-icon/flaticon.css" />
   <link rel="stylesheet" href="icon-fonts/font-awesome/css/all.min.css" />
 	
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>	
 
 
@@ -873,11 +873,12 @@
 	</script>
 	
 	<script>
-	  Fancybox.bind("[data-fancybox]", {
-		Thumbs: false,
-		Toolbar: {
-		  display: ["close"], // keep it clean
-		},
+	  document.addEventListener('DOMContentLoaded', function () {
+		// Fancybox 4+ needs an explicit bind
+		Fancybox.bind('[data-fancybox]', {
+		  Thumbs: false,
+		  Toolbar: { display: ['close'] }
+		});
 	  });
 	</script>
 
